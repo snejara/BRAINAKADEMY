@@ -1,0 +1,40 @@
+#promo {
+	height: 700px;
+	background: no-repeat center/cover url("../images/promo.png");
+}
+
+.promo-header {
+	height: 150px;
+	line-height: 150px;
+}
+
+.promo_logo {
+	float: left;
+	font-size: 20px;
+}
+.promo_buttons {
+	float: right;
+	font-size: 14px;
+}
+.promo_logo > li,
+.promo_buttons > li {
+	list-style-type: none;
+	display: inline-block;
+}
+.promo_logo a,
+.promo_buttons a {
+	text-decoration: none;
+	color: #fff;
+	font-family: MontserratBold
+}
+.promo-buttons a {
+	padding: 10px 18px;
+	border-radius: 2px solid #fff;
+}
+.promo-buttons .promo_button-signIn > a {
+	border-radius: 20px;
+	border:3px solid #fff;
+}
+.promo_button-logIn {
+	margin-right: 10px;
+}
