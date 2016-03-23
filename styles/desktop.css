@@ -47,28 +47,69 @@
 .how_it_works a {
 	text-decoration: none;
 	color: #000;
-	font-family: MontserratBold
+	font-family: MontserratBold;
 }
 .how_it_works {
 	height: 100px;
 	line-height: 100px;
 	text-align:center;
 }
-.how_it_works  .step_1{
+/*****Step_1*****/
+.how_it_works .step_1{
 	height: 400px;
+	color: #fff;
 	margin:0 10px 0 10px;
+	border-radius: 5px;
 	background: no-repeat center/cover url("../images/logo_1.png");
 }
-.how_it_works  .step_2{
+.step_1 h3 {
+	font-size: 24px;
+	font-family: MontserratBold;
+}
+.step_1 p {
+	font-size: 14px;
+	font-family: Roboto-Light;
+	color: #ccc;
+}
+/*****Step_1*****/
+
+/*****Step_2*****/
+.how_it_works .step_2{
 	height: 400px;
+	color: #fff;
 	margin:0 10px 0 10px;
+	border-radius: 5px;
 	background: no-repeat center/cover url("../images/logo_2.png");
 }
-.how_it_works  .step_3{
+.step_2 h3 {
+	font-size: 24px;
+	font-family: MontserratBold;
+}
+.step_2 p {
+	font-size: 14px;
+	font-family: Roboto-Light;
+	color: #ccc;
+}
+/*****Step_2*****/
+
+/*****Step_3*****/
+.how_it_works .step_3{
 	height: 400px;
+	color: #fff;
 	margin:0 10px 0 10px;
+	border-radius: 5px;
 	background: no-repeat center/cover url("../images/logo_3.png");
 }
+.step_3 h3 {
+	font-size: 24px;
+	font-family: MontserratBold;
+}
+.step_3 p {
+	font-size: 14px;
+	font-family: Roboto-Light;
+	color: #ccc;
+}
+/*****Step_3*****/
 
 .share > h3 {
 	margin-top:145px;
