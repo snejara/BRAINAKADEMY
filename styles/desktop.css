@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+}
 #promo {
 	height: 700px;
 	background: no-repeat center/cover url("../images/promo.png");
@@ -9,10 +13,13 @@
 }
 
 .promo_logo {
+	margin-top:46px;
 	float: left;
+	padding:0;
 	font-size: 20px;
 }
 .promo_buttons {
+	margin-top:38px;
 	float: right;
 	font-size: 14px;
 }
@@ -27,14 +34,76 @@
 	color: #fff;
 	font-family: MontserratBold
 }
-.promo-buttons a {
-	padding: 10px 18px;
-	border-radius: 2px solid #fff;
-}
-.promo-buttons .promo_button-signIn > a {
-	border-radius: 20px;
-	border:3px solid #fff;
+
+.promo_buttons .promo_button-signIn > a {
+	padding: 8px 18px;
+	border-radius: 30px;
+	border:2px solid #fff;
 }
 .promo_button-logIn {
+	padding: 8px 18px;
 	margin-right: 10px;
 }
+.how_it_works a {
+	text-decoration: none;
+	color: #000;
+	font-family: MontserratBold
+}
+.how_it_works {
+	height: 100px;
+	line-height: 100px;
+	text-align:center;
+}
+.how_it_works  .step_1{
+	height: 400px;
+	margin:0 10px 0 10px;
+	background: no-repeat center/cover url("../images/logo_1.png");
+}
+.how_it_works  .step_2{
+	height: 400px;
+	margin:0 10px 0 10px;
+	background: no-repeat center/cover url("../images/logo_2.png");
+}
+.how_it_works  .step_3{
+	height: 400px;
+	margin:0 10px 0 10px;
+	background: no-repeat center/cover url("../images/logo_3.png");
+}
+
+.share > h3 {
+	margin-top:145px;
+	text-align:center;
+	color: #fff;
+	font-family: MontserratBold;
+	font-size:52px;
+}	
+
+.share > p {
+	margin-top: 22px;
+	text-align:center;
+	color: #fff;
+	font-family: MontserratBold;
+	font-size:20px;
+}	
+.share .find {
+	margin-top:36px;
+	text-decoration: none;
+	color: #fff;
+	font-family: MontserratBold;
+	font-size:15px;
+}
+.find  {
+	height: 40px;
+	line-height: 40px;
+	width: 225px;
+	background-color: #ff4e50;
+	border-radius: 20px;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
